@@ -7,11 +7,11 @@ tags:
   - "Sandbox Comedy"
   - "Meta Quest"
 screenshots:
-  - src: "/shot-1-station.jpg"
-  - src: "/shot-2-cashdrawer.jpg"
-  - src: "/shot-3-standoff.jpg"
-  - src: "/shot-4-punch.jpg"
-  - src: "/shot-5-spraypaint.jpg"
+  - "/shot-1-station.jpg"
+  - "/shot-2-cashdrawer.jpg"
+  - "/shot-3-standoff.jpg"
+  - "/shot-4-punch.jpg"
+  - "/shot-5-spraypaint.jpg"
 date: 2026-09-15
 ---
 Step into **Gas or Scam**, a physics-driven VR game where every shift at the pump is a choice between honest work and pure mayhem.

@@ -2,8 +2,6 @@ backend:
   name: github
   repo: metaSparkStudio/company-profile
   branch: main
-  base_url: https://timely-tulumba-d11a99.netlify.app
-  auth_endpoint: auth
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"

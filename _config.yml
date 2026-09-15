@@ -1,0 +1,20 @@
+title: MetaSpark Studio
+description: Independent VR & Mobile games studio — makers of Gas or Scam.
+url: ""
+
+collections:
+  games:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: "games"
+    values:
+      layout: "default"
+
+# Files/folders Jekyll should not try to process or publish
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

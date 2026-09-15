@@ -1,0 +1,34 @@
+backend:
+  name: github
+  # ⚠️ REPLACE THIS with your own GitHub username/repository, e.g. "shameer123/metaspark-studio"
+  repo: YOUR_GITHUB_USERNAME/YOUR_REPO_NAME
+  branch: main
+
+# Where images you upload from the admin panel are stored and served from.
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "games"
+    label: "Games"
+    label_singular: "Game"
+    folder: "_games"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}}"
+    fields:
+      - { label: "Game Name", name: "title", widget: "string" }
+      - { label: "Tagline", name: "tagline", widget: "string", required: false, hint: "e.g. VR Physics Sandbox · Meta Quest" }
+      - { label: "Game Link", name: "link", widget: "string", hint: "The Meta Horizon (or store) URL for this game" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+        default: ["Meta Quest"]
+      - label: "Screenshots"
+        name: "screenshots"
+        widget: "list"
+        allow_add: true
+        field: { label: "Screenshot", name: "src", widget: "image" }
+      - { label: "Description", name: "body", widget: "markdown" }
+      - { label: "Date", name: "date", widget: "datetime", default: "", required: false, hint: "Leave as-is — controls display order, newest first" }
